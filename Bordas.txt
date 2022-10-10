@@ -1,0 +1,35 @@
+BORDAS
+
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Bordas</title>
+        <meta charset="utf-8">
+
+        <style type="text/css">
+            
+            /*duas formas de definir a cor e pixel exemplo abaixo, 
+            direto ou especificado um por um*/
+
+            #conteudo {/*border: 5px solid red;*/
+                
+            border-color: red green yellow blue;
+            border-width: 15px 5px 10px 25px;
+            border-style: outset;           }
+        
+        </style>
+          
+    </head>
+    <body>
+
+        <div id="conteudo">
+            Bordas<br>
+            Bordas<br> 
+            Bordas<br>   
+        </div>
+
+    </body>
+    
+</html>

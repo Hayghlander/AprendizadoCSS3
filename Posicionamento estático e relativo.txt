@@ -1,0 +1,67 @@
+POSICIONAMENTOS ESTÁTICO E RELATIVO ==>
+________________________________
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title> Posicionamentos ( static, relative, absolute e fixed) </title>
+    <meta charset="utf-8">
+
+    <style type="text/css">
+        body {
+            background: #007fc7;
+        }
+
+
+        #container {
+            background: #fff;
+            width: 800px;
+            margin: 10px auto;
+            padding: 10px;
+        }
+
+        p {
+            width: 300px;
+        }
+
+        .relative {
+            border: 1px solid red;
+            position: relative;
+            top:0px;
+            left: 0px;
+            bottom: 0px;
+
+        /*propriedades de deslocamento--> top, right, bottom, left*/
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="container">
+
+        <h1>Posicionamentos</h1>
+
+        <p>Ut quia aliquid a voluptas nesciunt hic officia voluptatem et explicabo animi. Non enim numquam qui
+            aspernatur distinctio aut quia recusandae non libero officia et recusandae nemo. Qui sunt error sed aliquid
+            fuga qui aliquam accusamus id sunt doloribus et dolor dicta eos dignissimos eaque.
+        </p>
+
+        <p class="relative"> Ut quia aliquid a voluptas nesciunt hic officia voluptatem et explicabo animi. Non enim
+            numquam qui
+            aspernatur distinctio aut quia recusandae non libero officia et recusandae nemo. Qui sunt error sed aliquid
+            fuga qui aliquam accusamus id sunt doloribus et dolor dicta eos dignissimos eaque.
+        </p>
+
+        <p>Ut quia aliquid a voluptas nesciunt hic officia voluptatem et explicabo animi. Non enim numquam qui
+            aspernatur distinctio aut quia recusandae non libero officia et recusandae nemo. Qui sunt error sed aliquid
+            fuga qui aliquam accusamus id sunt doloribus et dolor dicta eos dignissimos eaque.
+        </p>
+
+    </div>
+
+</body>
+
+</html>

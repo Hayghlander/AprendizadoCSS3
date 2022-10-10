@@ -1,0 +1,55 @@
+FORMATANDO LINKS ==>
+__________________________________________
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title> formatando links </title>
+    <meta charset="utf-8">
+
+    <style type="text/css">
+     
+        a {
+        padding: 5px 10px;
+        text-decoration: none;
+        }
+         /* links não visitados*/
+        a:link {
+            color: #1f2a92;
+        }
+        /* links visitados*/
+        a:visited{
+            color: #c0c0c0;
+        }
+        /*Links Hover, passa o cursor sobre o link, 
+        e ele muda de cor*/
+        a:hover {
+            color: #c24c08;
+        }
+        /* Links ativos, quando clicado*/
+        a:active{
+            color: #068831;
+            }
+        
+    </style>
+
+</head>
+
+<body>
+    <a href="https://www.google.com/"> |
+        google
+    </a>
+
+    <a href="https://www.tecmundo.com.br/"> |
+        tecmundo
+    </a>
+
+    <a href="https://www.youtube.com/">
+        youtube
+    </a>
+
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+ESTILOS DE TEXTOS
+
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Estilos de Textos</title>
+        <meta charset="utf-8">
+
+        <style type="text/css">        
+         
+            body {font size:20px;
+                  font-family: "Times New Roman";}  
+                
+            .negrito{ /* normal, bold*/
+                font-weight: 900;}
+            .italico {font-style: italic;}
+
+            .formatacao{
+                /*text-decoration:text-underline
+                text-decoration: overline
+                text=  decoration:line-through */
+                text-decoration: line-through;}
+
+            .texto {
+                /*ao utilizar somente font, 
+                vc ja consegue definir a fmailia de fontes*/
+                font: normal 40px "Times New Roman,"
+                    }
+                               
+        </style>
+           
+    </head>
+    <body>
+        
+       <p class="negrito"> Estudando css do zero </p>
+
+        <p class="italico">
+            Reserve um tempo para estudar e receba
+            lembretes usando seu programador de aprendizado.</p>
+
+        <p class=formatacao>
+            lembretes usando seu programador de aprendizado.            
+        </p>
+
+        <p class=texto> Texto css, estudando em home </p>
+
+        <p> Texto css, estudando em home </p>
+       
+        </body> 
+</html>

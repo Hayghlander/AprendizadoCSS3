@@ -1,0 +1,93 @@
+ <!--static é o padrão /
+        relative = tem seu alinhamento baseado na posiçao inicial do seu elemento /
+        absolute = ele permite que voce defina uma caixa que é removida do fluxo do documento 
+        e consiga alinhar essa caixa baseada no seu container que tenha uma posição
+        fixed = Baseado na tela da página, e também é fixo idenpendetemente-->
+
+____________________________________________________________
+
+POSICIONAMENTO ABSOLUTE FIXED ==>
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title> Posicionamentos ( static, relative, absolute e fixed) </title>
+    <meta charset="utf-8">
+
+    <!--static é o padrão /
+        relative = tem seu alinhamento baseado na posiçao inicial do seu elemento /
+        absolute = ele permite que voce defina uma caixa que é removida do fluxo do documento 
+        e consiga alinhar essa caixa baseada no seu container que tenha uma posição
+        fixed = Baseado na tela da página, e também é fixo idenpendetemente-->
+    
+    <style type="text/css">
+        body {
+            background: #007fc7;
+        }
+
+
+        #container {
+            background: #fff;
+            width: 800px;
+            margin: 10px auto;
+            padding: 10px;
+            position: relative;
+        }
+
+        p {
+            width: 300px;
+        }
+
+        .fixed {
+            border: 1px solid red;
+            background: #f2f2f2;
+            position: fixed;
+            top: 0px;
+            right: 0px;
+        }
+
+        .absolute {
+            border: 1px solid red;
+            background: #f2f2f2;
+            position: absolute;
+            top: 80px;
+            right: 80px;
+        }
+
+        .relative {
+            border: 1px solid red;
+            position: relative;
+            bottom: -20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="container">
+
+        <h1>Posicionamentos</h1>
+
+        <p>Ut quia aliquid a voluptas nesciunt hic officia voluptatem et explicabo animi. Non enim numquam qui
+            aspernatur distinctio aut quia recusandae non libero officia et recusandae nemo. Qui sunt error sed aliquid
+            fuga qui aliquam accusamus id sunt doloribus et dolor dicta eos dignissimos eaque.
+        </p>
+
+        <p class="fixed"> Ut quia aliquid a voluptas nesciunt hic officia voluptatem et explicabo animi. Non enim
+            numquam qui
+            aspernatur distinctio aut quia recusandae non libero officia et recusandae nemo. Qui sunt error sed aliquid
+            fuga qui aliquam accusamus id sunt doloribus et dolor dicta eos dignissimos eaque.
+        </p>
+
+        <p>Ut quia aliquid a voluptas nesciunt hic officia voluptatem et explicabo animi. Non enim numquam qui
+            aspernatur distinctio aut quia recusandae non libero officia et recusandae nemo. Qui sunt error sed aliquid
+            fuga qui aliquam accusamus id sunt doloribus et dolor dicta eos dignissimos eaque.
+        </p>
+
+    </div>
+
+</body>
+
+</html>

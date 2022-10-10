@@ -1,0 +1,140 @@
+ELEMENTOS FLUTUANTES
+
+________________________
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title> Contato </title>
+    <meta charset="utf-8">
+
+    <style type="text/css">
+        .conteudo1 {
+            background: blue;
+            border: 1px solid gray;
+            width: 150px;
+            height: 150px;
+        }
+
+            .conteudo2 {
+                background: blue;
+                border: 1px solid gray;
+                width: 150px;
+                height: 150px;
+                float: 150px;
+                
+                /*
+                float: right, left...;
+                */
+            }
+    </style>
+
+
+</head>
+
+<body>
+
+    <div class="conteudo1">
+        Conteúdo
+    </div>
+
+    <div class="conteudo2">
+        Conteúdo 2
+    </div>
+
+</body>
+
+</html>
+____________________________________________
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title> Contato </title>
+    <meta charset="utf-8">
+
+    <style type="text/css">
+
+        #principal
+        {
+            border: 5px solid red;
+            background: green;
+        }
+
+        .conteudo
+         {
+            background: blue;
+            border: 1px solid gray;
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            float: right;
+        }
+
+        /* 
+         .conteudo1 {
+                background:gray;
+                border: 1px solid gray;
+                width: 150px;
+                height: 150px;
+                float: right;
+                
+                float: top,right, left...;
+         */
+
+        .conteudo-zero {
+
+            background: red;
+            border: 1px solid gray;
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+        }
+
+        .clear {
+            clear: both;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <div id="principal">
+
+        <div class="conteudo">
+            Conteúdo 1
+        </div>
+
+        <div class="conteudo">
+            Conteúdo 2
+        </div>
+
+        <div class="conteudo">
+            Conteúdo 3
+        </div>
+
+        <p class="clear">
+            Lorem ipsum dolor sit amet. Ex laborum adipisci a voluptas quas et eligendi ullam et reiciendis autem. Ut
+            fugiat
+            quia ut repellendus laborum eos accusantium galisum eos aliquam provident vel neque adipisci. Quo beatae
+            aliquam
+            quo eligendi laboriosam et sunt nulla est voluptas molestias est repellat dolorem eum aperiam deleniti qui
+            quibusdam impedit? Et porro nostrum aut reiciendis harum quo asperiores quia id optio exercitationem?
+            Aut rerum magnam qui placeat mollitia nam quia pariatur ea distinctio quidem sed dolores dolor ea adipisci
+            voluptatem. Cum ullam explicabo sed animi quod et minus molestiae.
+            Ut voluptatem est tempore nobis ex necessitatibus voluptatum est quas magni sit expedita ullam. Id
+            perspiciatis
+            dolore qui dolores necessitatibus ut natus internos quo alias amet ut blanditiis obcaecati id corporis
+            ducimus
+            est excepturi excepturi. 
+        </p>
+
+</body>
+
+</html>

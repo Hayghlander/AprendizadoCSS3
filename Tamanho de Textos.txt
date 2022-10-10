@@ -1,0 +1,39 @@
+Tamanho de textos
+
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Fontes e Cores</title>
+        <meta charset="utf-8">
+
+        <style type="text/css">
+
+            div {font size: 30px;}
+
+            .texto {
+                /* px = tamanho fixo
+                %= tamanho relativo
+                em= tamanho relativo ao conteiner pai*/
+
+                    color: #2e0ae4;
+                    font-size:20px;
+                    font family:"Times New Roman", Times, serif;
+                    }
+                      
+        </style>
+           
+    </head>
+    <body>
+        
+       <p class="texto">
+
+        Alguns minutos de estudo por dia valem a pena.
+        Pesquisas mostram que os alunos que fazem do estudo um hábito têm
+        maior probabilidade de alcançar suas metas. 
+        Reserve um tempo para estudar e receba
+        lembretes usando seu programador de aprendizado. </p>
+       
+        </body> 
+</html>

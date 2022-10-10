@@ -1,0 +1,65 @@
+DIVs e Span
+
+
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Divs e span</title>
+        <meta charset="utf-8">
+
+        <style type="text/css">
+            #Topo {background:blue;}
+
+            #Conteudo {background:black;}
+
+            #Rodape {background:green;}
+
+            #Assinatura {background:green;}
+
+            .Produto {background: gray;
+                      margin: 10px}
+            .azul {color: blue;}
+
+        </style>
+    </head>
+
+    <body>
+
+        <div id="Topo">
+            <img src="imagens/amazonprime.png" width="200">
+           
+            <ul>
+                <li>Home</li>
+                <li>Produtos</li>
+                <li>Contato</li>
+            </ul>
+        </div>
+
+        <div id="Conteudo">
+            <div class="Produto">
+                Produto 1
+            </div>
+
+            <div class="Produto">
+                Produto 2
+            </div>
+
+            <div class="Produto">
+                Produto 3
+            </div>
+
+            <div class="Produto">
+                Produto 4
+            </div>
+        
+        </div>
+
+        <div id="Rodape">
+            Todos os <span class="azul">direitos</span> reservados
+        </div>
+    
+    </body>
+    
+</html>

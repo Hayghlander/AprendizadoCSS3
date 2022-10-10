@@ -1,0 +1,41 @@
+COR E IMAGEM DE FUNDO
+
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Estilos de Textos</title>
+        <meta charset="utf-8">
+
+        <style type="text/css">        
+         
+       body 
+    
+       {background-image:  url('imagens/joia.jpg');
+
+            background-repeat: no-repeat;
+            /*repeat, no repeat, repeat-x, repeat-y*/
+            background-attachment: fixed;
+            /*fixed, ou scroll*/
+            background-position: center, top;}
+            /*primeiro valor= center, left, right; 
+            Segundo valor= top, center, bottom*/
+        </style>
+           
+    </head>
+
+    <body>
+        
+    <h1> Pratas de Helena</h1>
+
+    <p>Pratas de helena</p>
+
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br>
+
+    <p>Pratas de helena</p>
+       
+</body> 
+</html>

@@ -1,0 +1,35 @@
+SELETORES 
+
+<!--seletores definem algumas formatações sem necessidade de faze-las uma a uma, 
+            so basta colocar a tag desejada em head assim como o exemplo a baixo -->
+
+
+<!<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Inline style</title>
+        <meta charset="utf-8">
+            
+        <style type="text/css">
+
+        p {color: red; }
+        h1 {color:blue; }
+        
+        </style>
+    </head>
+
+    <body>
+       
+        <h1> Estilo CSS (cascading style sheets)</h1>
+        <p>
+            Lorem ipsum dolor sit amet.
+            Ut galisum velit est optio ipsum aut sapiente esse.
+            Qui temporibus magni et repudiandae modi qui optio 
+            soluta et illo corporis qui quae velit est maxime voluptas 
+            hic cumque delectus. Ut harum enim et aperiam debitis qui 
+            fugit cupiditate qui laudantium sint aut eius illo.
+        </p>
+        
+    </body>
+</html>

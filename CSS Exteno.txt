@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Estilos de Textos</title>
+        <meta charset="utf-8">
+
+<!-- com esse link, se consegue puxar as informações 
+de uma página criada com codigos de classe, 
+para definir formatações de suas inúmeras páginas do site  --      
+
+.texto
+    color: red;
+    background: orange;--> 
+
+
+    
+        <link rel="stylesheet" type="text/css"
+        href="estilo.css">
+
+    </head>
+    <body class="fundo">
+       
+    <h1 class="texto">
+    Pratas de Helena </h1>
+       
+</body> 
+</html>

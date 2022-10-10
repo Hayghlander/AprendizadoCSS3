@@ -1,0 +1,42 @@
+CSS 3
+
+existem três tipos de estilos css.
+
+1 - Inline style vocÊ aplica formatação direto no elemento.
+
+2 - Internal style sheet, implementa direto dentro do código.
+
+3 - External style sheet, Quando colocar as formatações em um arquivo externo.
+
+
+__________________________________________________________________________
+INLINE STYLE
+
+<!<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Inline style</title>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+       
+        <h1 style="color: red;"> Estilo CSS</h1>
+        <p style="color: blue;">
+            Lorem ipsum dolor sit amet.
+            Ut galisum velit est optio ipsum aut sapiente esse.
+            Qui temporibus magni et repudiandae modi qui optio 
+            soluta et illo corporis qui quae velit est maxime voluptas 
+            hic cumque delectus. Ut harum enim et aperiam debitis qui 
+            fugit cupiditate qui laudantium sint aut eius illo.
+        </p>
+        
+    </body>
+</html>
+
+________________________________________________________________
+
+
+
+

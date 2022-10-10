@@ -1,0 +1,139 @@
+ELEMENTOS FLUTUANTES NA PRATICA -->>
+
+
+PODEMOS UTILIZAR  'FLOAT' PARA POSICIONAR ELEMENTOS DENTRO DO SITE.
+________________________________________________
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title> Contato </title>
+    <meta charset="utf-8">
+
+    <style type="text/css">
+        #principal {
+            width: 920px;
+            border: 1px solid red;
+        }
+
+        .noticia {
+            background: #e5e5e5;
+            padding: 5px;
+            width: 280px;
+            margin: 7px;
+            float: left;
+        }
+
+        .imagem-galeria {
+            background: white;
+            width: 280px;
+            padding: 5px;
+            float: left;
+            margin: 7px;
+        }
+
+        .clear {
+            clear: both;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="principal">
+
+        <div>
+
+            <div class="noticia">
+                <h2> Realizando testes</h2>
+                <p>
+                    Cum eius ipsa sit internos nostrum deleniti velit nam voluptatem optio ut mollitia iure et iusto
+                    quibusdam in quibusdam ullam. Et eius voluptas aut odit voluptates ad voluptatem quis aut minima
+                    corrupti nam voluptates odio.
+                </p>
+
+                <a href="">veja mais</a>
+
+            </div>
+
+            <div class="noticia">
+                <h2> Realizando testes</h2>
+                <p>
+                    Cum eius ipsa sit internos nostrum deleniti velit nam voluptatem optio ut mollitia iure et iusto
+                    quibusdam in quibusdam ullam. Et eius voluptas aut odit voluptates ad voluptatem quis aut minima
+                    corrupti nam voluptates odio.
+                </p>
+
+                <a href="">veja mais</a>
+
+            </div>
+
+            <div class="noticia">
+                <h2> Realizando testes</h2>
+                <p>
+                    Cum eius ipsa sit internos nostrum deleniti velit nam voluptatem optio ut mollitia iure et iusto
+                    quibusdam in quibusdam ullam. Et eius voluptas aut odit voluptates ad voluptatem quis aut minima
+                    corrupti nam voluptates odio.
+                </p>
+
+                <a href="">veja mais</a>
+
+            </div>
+
+        </div>
+        <!--fim noticia-->
+
+        <div class="clear"> </div>
+
+        <div>
+
+            <div class="imagem-galeria">
+                <img src="imagens/imagem1.png">
+                <p>resumo da imagem</p>
+
+            </div>
+
+            <div>
+
+                <div class="imagem-galeria">
+                    <img src="imagens/imagem2.png">
+                    <p>resumo da imagem</p>
+
+                </div>
+
+                <div>
+
+                    <div class="imagem-galeria">
+                        <img src="imagens/imagem3.png">
+                        <p>resumo da imagem</p>
+
+                    </div>
+
+                    <div>
+
+                        <div class="imagem-galeria">
+                            <img src="imagens/imagem4.png">
+                            <p>resumo da imagem</p>
+
+                        </div>
+
+                        <div>
+
+                            <div class="imagem-galeria">
+                                <img src="imagens/imagem5.png">
+                                <p>resumo da imagem</p>
+
+                            </div>
+
+                            <hr class="clear">
+                        </div>
+
+                    </div> <!-- fim principal -->
+
+
+</body>
+
+</html>
